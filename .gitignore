@@ -1,20 +1,10 @@
-# IntelliJ IDEA project files
-.idea/*
-# macOS specific files
+# IDE
+.idea/
+
+# macOS
 .DS_Store
 
-# Certificates
-*.pem
-
-# Compiled output
-/out/
-/build/
-/target/
-
-# Dependency-related files
-*.iml
-*.ipr
-*.iws
-
-# Annotation processing
-/generated
+# Windows
+Thumbs.db
+desktop.ini
+ehthumbs.db
