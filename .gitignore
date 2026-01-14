@@ -1,0 +1,10 @@
+# IDE
+.idea/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+ehthumbs.db
