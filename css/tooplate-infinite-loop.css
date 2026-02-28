@@ -718,3 +718,23 @@ p {
     margin: 0;
   }
 }
+
+.centered-table {
+  /* 1. Equal Width Columns */
+  width: 100%; /* Ensures the table takes up available width */
+  table-layout: fixed; /* Distributes column widths equally regardless of content */
+  
+  /* 2. Center the Table Itself */
+  margin-left: auto; /* Distributes extra space on the left */
+  margin-right: auto; /* Distributes extra space on the right */
+  /* Shorthand for centering the block element is margin: 0 auto; */
+  
+  /* 3. Center Content within Cells */
+  text-align: center; /* Horizontally centers the content inside the cells */
+  
+}
+
+/* Optional: Style individual cells */
+.centered-table th, .centered-table td {
+  padding: 8px;
+}
